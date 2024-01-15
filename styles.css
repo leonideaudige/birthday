@@ -1,0 +1,13 @@
+
+body{
+    background-color: brown;
+    text-align: center;
+}
+.shadowbox {
+    width: 15em;
+    border: 1px solid#333;
+    box-shadow: 8px 8px 5px rgb(178, 50, 70);
+    padding: 18px 32px;
+   
+  }
+  
