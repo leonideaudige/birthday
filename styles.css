@@ -4,6 +4,10 @@ body{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     text-decoration-color: blanchedalmond;
+    background-image:url("Capture d'écran 2024-01-15 120356.png") ;
+    
+filter: brightness(0%);
+n
 }
 .shadowbox {
     width: 700px;
@@ -17,6 +21,7 @@ body{
     margin-left: 620px;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: dashed;
+    background-image: ("Capture d'écran 2024-01-15 115813.png");
   }
   
   p{

@@ -12,8 +12,9 @@
     <h1> AUDIGE LEONIDE vous invite</h1>
 
     <h2> THEME DE LA SOIREE : OLD SCHOOL</h2>
+    <p> Total Guests:<?php.include'count_guests.php';?></p>
     <button id ="savoirplus" onclick="displayExplanations()">en savoir plus</button>
-   <p  id ="savoirplus1"> le thème de la fete a été choisi par vote depuis le 2 janvier 2023, pour ceux qui voudraient apporter leur contribution à la réalisation de mon aniversaire vous etes prié de bien vouloir m'écrire en inbox .Au plaisir de vous recevoir ce jour.</p>
+   <p  id ="savoirplus1"> le thème de la fete a été choisi par vote depuis le 2 janvier 2023,<br> pour ceux qui voudraient apporter leur contribution à la réalisation de mon aniversaire,<br> vous etes prié de bien vouloir m'écrire en inbox.<br>Au plaisir de vous recevoir ce jour.</p>
   
 <div class = shadowbox>
    
@@ -24,7 +25,7 @@
 descriptif-des-salles-municipales/la-salle-du-jardin-des-plantes">lien pourla réservation</a></p>
    
 </div>
-<p> Total Guests:<?php.include'count_guests.php';?></p>
+
 </p>
 <form  method="post"action="register.php">
 
