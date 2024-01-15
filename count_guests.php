@@ -11,16 +11,24 @@ if($connection->connect_error){
 }
 $seletDataquery="SELECT * FROM `nobirthday-guests`"
 
+$result = $connection->query($sql);
 
-$connection->query($sql);
-if ($connection->query($sql) == TRUE) {
-    echo "toutes les données ont éte envoyées";
+
+if ($result->num_rows > 0) {
+    $totalGuests = 0;
+
+    while ($row = $result->fetch_assoc()) {
+       
+        echo "Nom: " . $row["nom"] . " - nombre: " . $row["nombre"] . "<br>";
+
+        
+        $totalGuests += $row["nombre"];
+    }
+
+    
+    echo "<p>Le nombre total d'invités est : " . $totalGuests . "</p>";
 } else {
-    echo "Erreur:". $sql ."<br> ". $connection->error;
-}   
-  for (let pas = 0; pas < 5; pas++) {
- 
-  console.log("Faire " + pas + " pas vers l'est");
+    echo "Aucun résultat trouvé dans la base de données.";
 }
 
 $connection->close();  
