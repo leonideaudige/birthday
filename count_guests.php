@@ -9,9 +9,9 @@ $connection = new mysqli($host,$user,$password,$database);
 if($connection->connect_error){
     die("connection failed:".$connection->connec_error);
 }
-$seletDataquery="SELECT * FROM `nobirthday-guests`"
+$seletDataquery="SELECT * FROM `nobirthday-guests`";
 
-$result = $connection->query($sql);
+$result = $connection->query($seletDataquery);
 
 
 if ($result->num_rows > 0) {

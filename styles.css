@@ -3,11 +3,11 @@ body{
     background-color: rgb(208, 50, 70);
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    text-decoration-color: blanchedalmond;
-    background-image:url("Capture d'écran 2024-01-15 120356.png") ;
+    text-decoration-color: blueviolet;
+    background-image:url("Capture d'écran 2024-01-15 120800.png") ;
     
-filter: brightness(0%);
-n
+
+
 }
 .shadowbox {
     width: 700px;
@@ -21,7 +21,7 @@ n
     margin-left: 620px;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: dashed;
-    background-image: ("Capture d'écran 2024-01-15 115813.png");
+  
   }
   
   p{
@@ -30,9 +30,9 @@ n
   }
   button{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: blanchedalmond;
+    background-color: pink;
     text-align: right;
-    margin-left: 400px;
+    margin-left: 700px;
   }
   #savoirplus1{
     display: none;
