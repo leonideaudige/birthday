@@ -1,0 +1,5 @@
+function displayExplanations(){
+
+getElementById
+
+}
